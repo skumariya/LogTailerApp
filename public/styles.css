@@ -1,0 +1,59 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.log-container {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.log-line {
+    margin: 0;
+    padding: 2px 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.file-selector {
+    margin-bottom: 20px;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.auth-button {
+    margin: 10px;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.settings-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logout-button {
+    position: fixed; /* Makes the button stay in the corner even when scrolling */
+    top: 0;         /* Positions it at the top */
+    right: 0;       /* Positions it at the right edge */
+    padding: 10px 15px; /* Adds some space around the text */
+    background-color: #4CAF50; /* Example background color */
+    color: white;    /* Example text color */
+    border: none;    /* Removes the default button border */
+    cursor: pointer; /* Changes the cursor to a hand when hovering */
+    font-size: 16px; /* Sets the font size */
+    border-radius: 5px; /* Adds rounded corners */
+  }
